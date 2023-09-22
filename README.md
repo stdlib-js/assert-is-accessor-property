@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isAccessorProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-accessor-property@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-accessor-property/tags). For example,
+
+```javascript
 import isAccessorProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-accessor-property@v0.1.0-esm/index.mjs';
 ```
 
@@ -140,7 +145,7 @@ bool = isAccessorProperty( obj, 'accessor' );
 <body>
 <script type="module">
 
-import isAccessorProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-accessor-property@v0.1.0-esm/index.mjs';
+import isAccessorProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-accessor-property@esm/index.mjs';
 
 var bool = isAccessorProperty( [ 'a' ], 'length' );
 // returns false
