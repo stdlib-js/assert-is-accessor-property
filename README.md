@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isAccessorProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-accessor-property@esm/index.mjs';
+import isAccessorProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-accessor-property@v0.2.2-esm/index.mjs';
 ```
 
 #### isAccessorProperty( value, property )
@@ -140,7 +140,7 @@ bool = isAccessorProperty( obj, 'accessor' );
 <body>
 <script type="module">
 
-import isAccessorProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-accessor-property@esm/index.mjs';
+import isAccessorProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-accessor-property@v0.2.2-esm/index.mjs';
 
 var bool = isAccessorProperty( [ 'a' ], 'length' );
 // returns false
